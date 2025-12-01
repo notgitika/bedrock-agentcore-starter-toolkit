@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.2.1] - 2025-12-01
+
+### Changes
+
+- docs: update middleware integration in Runtime Overview (#381) (48968f4)
+- fix: add missing basic template README. Also fix erroneous print statment in IAC path (#377) (63970da)
+- feat: CLI UX improvements (#380) (da80cf5)
+- chore: bump version to 0.2.0 (#376) (31a37ff)
+- nit: spellcheck changes (#375) (ab82659)
+- fix: remove unused imports; fix documentation pages (#374) (b6628a7)
+- feat: change 'launch' command to 'deploy' command with backwards compatibility (#370) (4d66714)
+- Update readme copy (#373) (7e7f089)
+- Auto-enable CloudWatch observability  (#372) (f46e8e8)
+- feat: implement agentcore create command. Related updates are made to… (#364) (ec1ce0f)
+- docs: update async processing documentation to use manual task management (#371) (e47a5a0)
+- feat: add multi-platform ARM64 support for dependency packaging (9932a85)
+- update transaction search enablement instructions (#367) (b802d79)
+- chore(doc): add memory and gateway to cli documentation (#363) (06c3282)
+- feat: Add comprehensive observability CLI for agent telemetry (#360) (86c2390)
+- chore: bump version to 0.1.34 (#355) (76dda3a)
+- docs: add identity CLI quickstart and fix claude SDK path (#353) (1415eb3)
+- feat: Add Memory/Gateway CLI support (#338) (70c4dee)
+- feat: add Identity CLI commands for managing OAuth authentication and external service access (#332) (1dcc546)
+- Add AWS Marketplace subscription permissions to execution role (#349) (0707685)
+
 ## [0.2.0] - 2025-11-27
 
 ### Changes
