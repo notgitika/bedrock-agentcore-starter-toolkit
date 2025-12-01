@@ -105,7 +105,6 @@ def set_default(name: str = typer.Argument(...)):
 def configure(
     ctx: typer.Context,
     *,
-    create: bool = typer.Option(False, "--create", "-c"),
     entrypoint: Optional[str] = typer.Option(
         None,
         "--entrypoint",
@@ -183,7 +182,7 @@ def configure(
     if ctx.invoked_subcommand is not None:
         return
     configure_impl(
-        create=create,
+        create_iac=False,
         entrypoint=entrypoint,
         agent_name=agent_name,
         execution_role=execution_role,
